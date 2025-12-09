@@ -1,0 +1,7 @@
+services:
+  node:
+    image: mcr.microsoft.com/playwright:v1.57.0-noble
+    working_dir: /project
+    volumes:
+      - ./../:/project
+    command: tail -f /dev/null

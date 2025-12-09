@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "test:testmo": "npx testmo automation:run:submit   --instance $TESTMO_URL   --project-id 1   --name 'Playwright CI run'   --source 'playwright'   --results 'results/junit/results.xml'   -- npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@testmo/testmo-cli": "^1.4.5"
+  }
+}
