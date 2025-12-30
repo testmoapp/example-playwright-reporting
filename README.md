@@ -2,7 +2,7 @@
 
 This repository contains an example on getting started with and using Playwright for test automation and reporting test results. You can learn more about this example in our article:
 
-[Playwright Reporting: Complete Guide to Test Automation & Reporting With Testmo](#)
+[Playwright Reporting: Complete Guide to Test Automation & Reporting With Testmo](https://www.testmo.com/guides/playwright-reporting-with-testmo/)
 
 ## License
 
